@@ -3,6 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <title>SmartPhone Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9; /* soft gray background */
+    }
+    header {
+      background-color: #1a73e8; /* blue header */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background-color: #ffffff; /* white content area */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      background-color: #e8f0fe; /* light blue sections */
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    table {
+      background-color: #ffffff;
+      width: 60%;
+      margin: 10px auto;
+      border-collapse: collapse;
+    }
+    th {
+      background-color: #34a853; /* green headers */
+      color: white;
+      padding: 10px;
+    }
+    td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+    caption {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    footer {
+      background-color: #202124; /* dark footer */
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
@@ -21,7 +85,7 @@
   <main id="home">
     <h2>Welcome to SmartPhone Hub</h2>
     <p>Your one-stop online store for the latest smartphones at unbeatable prices.</p>
-    <img src="phone.jpg" alt="Latest Smartphone" width="300">
+    <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg" alt="Latest Smartphone" width="300">
     <p>Check out our exclusive collection of the newest devices with amazing discounts!</p>
     <a href="https://github.com/yourusername" target="_blank">Visit my GitHub</a>
   </main>
@@ -41,7 +105,7 @@
   <!-- Product Showcase Table -->
   <section id="products">
     <h2>Top Selling Phones</h2>
-    <table border="1" style="border-collapse: collapse; width: 60%;">
+    <table>
       <caption>Phone Price List</caption>
       <tr>
         <th>Phone Model</th>
